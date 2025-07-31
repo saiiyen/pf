@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "saiiyen",
+  "homepage": "https://saiiyen.vercel.app",
+  "items": [
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "title": "Utility Functions",
+      "author": "saiiyen.k <kumarkatravath.01@gmail.com>"
+,
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "use-controllable-state",
+      "type": "registry:hook",
+      "title": "Controllable State Hook",
+      "files": [
+        {
+          "path": "src/hooks/use-layout-effect.tsx",
+          "type": "registry:hook"
+        },
+        {
+          "path": "src/hooks/use-controllable-state.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    
+    {
+      "name": "flip-sentences",
+      "type": "registry:component",
+      "title": "Flip Sentences",
+      "author": "saiiyen.k <kumarkatravath.01@gmail.com>"
+,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://saiiyen.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/registry/flip-sentences/flip-sentences.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+    
+  ]
+}
