@@ -64,7 +64,8 @@ export default function Page() {
               <span className="ml-4 group-hover:translate-x-1 transition-transform">↗</span>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/13HT6BGaxUHQ_04qQ4g6lke0PtXHxPvPq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Gbs2_2JyUYhYpqOoLsis2f5A3-eBs8kw/view"
+              
               target="_blank"
               className="flex items-center justify-between text-lg font-medium hover:underline group"
             >

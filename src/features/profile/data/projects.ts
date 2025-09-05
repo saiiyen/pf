@@ -40,5 +40,35 @@ Blog Features:
     
     isExpanded: true,
   },
+  {
+    id: "saiiyendotcom",
+    title: "Tidybeast",
+    period: {
+      start: "07.2025",
+      end: "09.2025",
+    },
+    link: "https://github.com/saiiyen/TidyBeast.git",
+    skills: [
+      "Open Source",
+       "Creativity",
+           "Responsive Webapps",
+          "React",
+          "Typescript",
+          "Javascript",
+      "shadcn/ui",
+      "CI/CD",
+      "Vercel",
+    ],
+    description: `Tidy Beast is a home services firm established in Hyderabad that is revolutionizing the Indian cleaning market with its network of screened professionals and technology-driven solutions,For both residential and commercial clients, the company provides high-quality, environmentally friendly cleaning services with an emphasis on dependability, accessibility, and transparency.
+- Minimalistic UI: Clean and modern design
+- Real-Time Pricing : Dynamic cost calculations across service types using BHK, area and quantity-based models
+- Robust State Management :TanStack Query and React Context guarantee data integrity and pricing consistency
+- Modular Architecture : Reusable TypeScript components and clean architecture patterns for scalable, maintainable code
+`,
+    logo:"https://pub-b9f1ea6eba4648bc86b786e948113865.r2.dev/Assets/tidybeast-logo.png",
+    
+    
+    isExpanded: true,
+  },
   
  ];

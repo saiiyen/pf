@@ -31,9 +31,9 @@ export const USER = {
     // },
   ],
   about: `
-Hello, World! I am kumar — a Software Developer & soloprenuer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I am kumar — a Software Developer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
 
-With 1+ years of experience, I specialize in building high-quality web  applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+With 1.4 years of hands-on experience in Genesys Cloud CX and Fullstack dev, I architect and build scalable web applications using Next.js, React, and TypeScript, combined with modern front-end tooling and best practices. Beyond work, I love exploring new technologies and turning ideas to life through side projects and open-source contributions.
 
 
 

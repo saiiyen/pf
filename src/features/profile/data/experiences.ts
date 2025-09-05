@@ -60,7 +60,7 @@ export const EXPERIENCES: Experience[] = [
 - Engineered advanced call routing strategies utilizing Advanced Notification Queue (ANQ) and Custom Routing Template (CRT), aimed at improving call handling efficiency and customer satisfaction.
 - Conducted thorough testing of customer interaction flows to ensure they met operational standards and requirements.`,
         skills: ["Genesys Cloud CX", "Unit Testing", "Flow Design","Call Routing Strategies","Configuration management","Cloud Sec"],
-        isExpanded: false,
+        isExpanded: true,
       },
     ],
     
@@ -68,32 +68,46 @@ export const EXPERIENCES: Experience[] = [
   },
       
   {
-    id: "freelance",
+    id: "118-4085-9983-ae00530b45442",
     companyName: "Freelance",
     positions: [
       {
         id: "f0becfba-057d-40db-b252-739e1654faau",
         title: "Full-stack Developer",
         employmentPeriod: {
-          start: "05.2025",
-          end: "08.2025",
+          start: "07.2025",
+          end: "09.2025",
         },
         employmentType: "Part-time",
-        description: `- Built a fully responsive web application for a home and commercial cleaning startup.
-- Engineered a complete booking platform for a cleaning services startup, enabling seamless service scheduling and services.
-- Built a structured user flow from onboarding to booking confirmation, with real-time transaction tracking and admin control.
-- Implemented a lightweight internal ops dashboard for service providers to monitor booking metrics.
-- Designed a customizable high-conversion landing page experience with service clarity, animated transitions, and intuitive CTAs.`,
+        description: `- Built a fully responsive React/TypeScript website for TidyBeast, a home and commercial cleaning startup, featuring dynamic service booking with real-time pricing algorithms across 8+ service types.
+- Engineered sophisticated pricing systems (BHK-based, area-based, quantity-based) with service-specific configurations and integrated payment processing, achieving seamless booking workflows from service discovery to transaction completion.
+- Developed modular component architecture with advanced state management, eliminating cross-service data contamination and ensuring 100% pricing consistency across all user interfaces.
+- Implemented multi-step booking workflows with form validation and real-time price calculations, while creating a lightweight operations for service providers with automated data processing, email notifications, and booking management.
+- Debugged complex state management issues and refactored legacy code, improving system reliability by 50% while maintaining high code quality with TypeScript and clean architecture patterns.`,
         icon: "code",
-        // skills: [
-        //   "Express",
-        //   "React",
-        //   "Express.js",
-        //   "Socket.IO",
-        //   "MongoDB",
-        //   "Firebase",
-        //   "Deployment"
-        // ],
+         skills: [
+          "Creativity",
+           "Responsive Webapps",
+          "React",
+          "Typescript",
+          "Javascript",
+        "state Management",
+        "Booking Systems",
+        "Form Validation",
+        "Email Notifications",
+        "Code Refactoring",
+        "Debugging",
+        "Clean Architecture",
+        "Modular Components",
+        "Real-time Pricing Algorithms",
+        "User Experience (UX) Design",
+        "Service Configuration",
+        "Data Integrity",
+        "Automated Workflows",
+        "Deployment"
+        
+         ],
+
       },
     ],
   },
